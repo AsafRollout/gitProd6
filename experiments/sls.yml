@@ -1,0 +1,10 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: sls
+conditions:
+  - dependency:
+      flag: second
+      value: 'true'
+    value: false
+value: false

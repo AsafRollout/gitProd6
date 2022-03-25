@@ -1,0 +1,19 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+flag: var
+availableValues:
+  - blue
+  - green
+  - red
+conditions:
+  - version:
+      operator: semver-eq
+      semver: 3.0.0
+    value:
+      - percentage: 33
+        option: green
+      - percentage: 33
+        option: blue
+      - percentage: 34
+        option: red
+value: blue
