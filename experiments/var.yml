@@ -8,7 +8,7 @@ availableValues:
 conditions:
   - version:
       operator: semver-eq
-      semver: 3.0.0
+      semver: 3.0.0.0
     value:
       - percentage: 33
         option: green
